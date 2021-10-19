@@ -73,23 +73,6 @@ body {
   align-items: center;
 }
 
-.navbar-brand h1 {
-  /* Restaurant name */
-  color: black;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 0.75;
-}
-.navbar-brand a:hover,
-.navbar-brand a:focus,
-.navbar-brand a {
-  text-decoration: none;
-}
-
 .menu-items {
   order: 2;
   display: flex;
@@ -549,7 +532,7 @@ body {
     font-weight: 500;
   }
 
-  .navbar-brand h1 {
+  .logo {
     position: absolute;
     top: 5px;
     right: 15px;
